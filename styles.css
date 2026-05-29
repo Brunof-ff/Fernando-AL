@@ -1,5 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html{ 
+    font-family: 'Montserrat';
+    background-color: #fff;
+    font-size: 16px;
+    color: #666;
 
-body{
-    background: #333;
-    color: azure;
 }
+h1,h2,h3,h4,h5,h6{
+    color: #666666;
+}
+
+.contenido{
+    display: block;
+    max-width: 1600px; /*se ajusta a las pantallas*/
+    margin: 0 auto;
+}
+#logo{
+    font-size: 40px;
+}
+
+#inicio{
+    background-color: #eff7ed;
+    border-radius: 100px;
+    padding: 20px 10px; /*se va al interior del elemento los 20 vertical y 10 horizontal */
+    margin: 10%;
+}
+
+#inicio h3{
+    color: #97ba70;
+    margin-bottom: 20px;
+
+}
+
+#inicio-contenido h2{
+    font-size: 80px;
+    line-height: 1.4; /*interlineado*/
+
+}
+#inicio-contenido{
+    display: flex;
+    justify-content: space-between;
+}
+
+#inicio-contenido{
+    font-size: 24px;
+    line-height: 1.8;
+    width: 80;
+
+}
+
+.boton{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    background-color: #97ba7d;
+    padding: 16px 36px;
+    border-radius:5px;
+    font-weight:bold;
+    margin-right:18px;
+
+}
+
+#aprende-mas{
+    background-color: transparent;
+    border: 2px solid #97ba7d;
+    color:#97ba7d;
+
+}
+#inicio-botones{
+    margin-bottom: -30px; /* investigar*/
+}
+
+#cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;/*se dapta con el auto*/
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    padding: 40px;
+    margin-right: 16px;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);/*investigar*/
+}
+.card-img{
+    width: 20%;
+    border-radius: 10px; /*siempre poner en las imagenes*/
+
+}
+.card-titulo{
+    font-size: 24px;
+}
+.card-contenido{
+    font-size: 20px;
+    line-height: 1.8;
+
+}
+.card-separador{
+    width: 20%; /*el 20% relativo al card o donde esta contenido*/
+    margin: 20px 0;
+    border: 1px solid #e64040;
+}
+#conocenos{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+
+}
+#conocenos-img{
+    background-color: #cfe4e6;
+    border-radius: 16px;
+    margin-right: 80px;
+    padding: 30px;
+
+}
+.separador{
+    border: 20px solid #e64040;
+    width: 20%;
+    margin: 32px 0;
+}
+#conocenos-conenido h2{
+    font-size: 50px;
+
+}
+#conocenos-contenido{
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    font-size: 20px;
+
+}
+.aprende-mas{
+    text-decoration:  none;
+    color: #95ba7c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    display: block; /*bloquea el contenido del elemento osea que no lo pueden inadir*/
+
+}
+#aprobado{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#aprobado-img{
+    padding: 30px;
+    border-radius: 16px;
+    margin: 80px;
+
+}
+#aprobado-contenido p{
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    font-size: 20px;
+
+}
+
+#aprobado-contenido h2{
+    font-size: 50px;
+}
+
+footer{
+    background-color: #fafafa;
+    padding: 16px;
+    
+}
+
+footer .contenido{ /*con el espacio entrente el punto se refiere en especifico al contenido del footer*/
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.footer-contacto{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-contacto h2{
+    font-size: 50px;
+}
+
+.footer-contacto a{
+    text-decoration: none;
+    color:#94bb7c;
+    display: block;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.footer-redes{
+    display: flex;
+}
+
+.footer-redes i{
+    font-size: 40px;
+    color: #96bb7c;
+    margin-right: 20px;
+}
+
